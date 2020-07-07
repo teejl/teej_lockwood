@@ -67,12 +67,6 @@ body {
   color: #212529;
   text-align: left;
   background-color: black;
-  max-width: 950px;
-  margin-left: auto;
-  margin-right: auto;
-  border-left: 3px solid white;
-  border-right: 3px solid white;
-  border-bottom: 3px solid white;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -548,7 +542,7 @@ pre code {
 }
 
 .container {
-  width: 80%;
+  width: 100%;
   padding-right: 0.75rem;
   padding-left: 0.75rem;
   margin-right: auto;
@@ -6128,7 +6122,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: white !important;
+  background-color: #f8f9fa !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
@@ -9817,7 +9811,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-muted {
-  color: #abb6c0 !important;
+  color: #6c757d !important;
 }
 
 .text-black-50 {
@@ -10168,7 +10162,7 @@ header.masthead .masthead-heading {
 #portfolio .portfolio-item .portfolio-caption {
   padding: 1.5rem;
   text-align: center;
-  background-color: white;
+  background-color: #fff;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
   font-size: 1.5rem;
@@ -10403,16 +10397,16 @@ header.masthead .masthead-heading {
 }
 
 section#about {
-  background-color: #6f42c1;
+  background-color: white;
   background-repeat: no-repeat;
   background-position: center;
 }
 section#about .section-heading {
-  color: white;
+  color: black;
 }
 
 section#contact {
-  background-color: #007bff;
+  background-color: #212529;
   background-repeat: no-repeat;
   background-position: center;
 }

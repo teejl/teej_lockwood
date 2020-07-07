@@ -66,13 +66,10 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: black;
+  background-color: #0E1111;
   max-width: 950px;
   margin-left: auto;
   margin-right: auto;
-  border-left: 3px solid white;
-  border-right: 3px solid white;
-  border-bottom: 3px solid white;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -9961,6 +9958,7 @@ p {
 
 .page-section {
   padding: 3rem 0;
+  border: 8px solid #0E1111;
 }
 .page-section h2.section-heading {
   font-size: 2.5rem;
@@ -10103,6 +10101,7 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  border: 8px solid #0E1111;
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;

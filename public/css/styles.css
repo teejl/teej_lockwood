@@ -9959,6 +9959,7 @@ p {
 .page-section {
   padding: 3rem 0;
   border: 8px solid #0E1111;
+  border-radius: 15px;
 }
 .page-section h2.section-heading {
   font-size: 2.5rem;
@@ -10102,6 +10103,7 @@ header.masthead {
   background-position: center center;
   background-size: cover;
   border: 8px solid #0E1111;
+  border-radius: 15px;
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
@@ -10182,7 +10184,10 @@ header.masthead .masthead-heading {
 
 .portfolio-modal .modal-dialog {
   margin: 1rem;
-  max-width: 100vw;
+  max-width: 900px;
+  position: absolute;
+  left: 50%;
+  margin-left: -458px;
 }
 .portfolio-modal .modal-content {
   padding-top: 6rem;

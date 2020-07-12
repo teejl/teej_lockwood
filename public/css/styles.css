@@ -10184,6 +10184,8 @@ header.masthead .masthead-heading {
 
 .portfolio-modal .modal-dialog {
   margin: 1rem;
+  max-width: 900px;
+  position: absolute;
 }
 .portfolio-modal .modal-content {
   padding-top: 6rem;
